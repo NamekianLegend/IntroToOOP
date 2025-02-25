@@ -39,6 +39,11 @@ public class Student extends Person { // Student class extending Person class
         System.out.println("Student ID: " + studentId); // Display the student ID
         System.out.println("Major: " + major); // Display the major
         System.out.println("GPA: " + gpa); // Display the GPA
+        try {
+            System.in.read();
+        } catch(Exception e) {
+            
+        }
     }
 
 }
