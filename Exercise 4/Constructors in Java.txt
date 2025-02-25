@@ -1,0 +1,31 @@
+Constructors in Java:
+
+When it comes to Java, a constructor is a special method used to initialize objects.
+Fun fact, all classes have a default constructor upon creation! 
+Constructors MUST match the class name, and it cannot have a return type such as void for example.
+There are 3 types of constructors in Java:
+
+- Default constructor = The constructor automatically made when the class is created, it has no parameters defined and is invisible to user
+Fun fact, if we create the constructor with no parameters, the compiler will not make the invisible one as it is not needed
+Ex: public Car () {
+	name = "Ex: Ford";
+}
+- Parameterized constructor = This is a constructor made by the program creator with specified parameters/arguments for the constructor
+You can have 1 argument or many more, all depends on what is desired
+Ex: public Car (String n) {
+	name = n;
+}
+- Copy constructor = This constructor is created when another object is created when the data is copied from the passed object to the new object
+Ex: public Car (String n) {
+	name = n;
+}
+
+Car(Car car2)
+{
+  n = car2.name;
+}
+
+
+References: https://www.w3schools.com/java/java_constructors.asp
+
+https://www.geeksforgeeks.org/constructors-in-java/
