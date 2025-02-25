@@ -1,6 +1,4 @@
-Link to YouTube Video: https://www.youtube.com/watch?v=3pozSqG_Ni8
 
-Link to GitHub: https://github.com/NamekianLegend/IntrotoOOP_Assignment1
 
 References: In class with Nadia
 
