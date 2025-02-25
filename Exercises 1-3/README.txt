@@ -1,1 +1,0 @@
-Link to the repository: https://github.com/NamekianLegend/JavaFirstProgram
