@@ -34,6 +34,11 @@ public class Main {
                     System.out.println("Uploading student details to program...."); // Print message about uploading student details
                     System.out.println("Student added successfully!"); // Display a success message
                     System.out.println("===================================="); // Display a separator
+                    try {
+                        System.in.read();
+                    } catch(Exception e) {
+                        System.out.println("Press enter to continue");
+                    }
                 }
                 case 2 -> { // If the user chooses option 2
                     System.out.println(" "); // Print space
