@@ -34,9 +34,6 @@ abstract class Person { // Abstract class for Person
         this.address = address; // Initialize the address
     }
 
-    public void displayDetails() { // Method to display the details of the person
-        System.out.println("Name: " + name); // Display the name
-        System.out.println("Age: " + age); // Display the age
-        System.out.println("Address: " + address); // Display the address
-    }
+    abstract void displayDetails(); // Abstract Method to display the details of the person
+
 }

@@ -33,9 +33,12 @@ public class Student extends Person { // Student class extending Person class
         this.gpa = gpa; // Initialize the GPA
     }
 
-    @Override // Override the displayDetails() method from the Person class
-    public void displayDetails() { // Method to display the details of the student
-        super.displayDetails(); // Call the superclass method to display the person details
+     // Override the displayDetails() method from the Person class
+     @Override
+     public void displayDetails() { // Method to display the details of the student
+        System.out.println("Name: " + getName()); // Display the name
+        System.out.println("Age: " + getAge()); // Display the age
+        System.out.println("Address: " + getAddress()); // Display the address
         System.out.println("Student ID: " + studentId); // Display the student ID
         System.out.println("Major: " + major); // Display the major
         System.out.println("GPA: " + gpa); // Display the GPA
