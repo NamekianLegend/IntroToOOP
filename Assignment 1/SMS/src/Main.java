@@ -2,9 +2,11 @@ import java.util.Scanner; // Import the Scanner class
 
 public class Main {
 
+    public static Scanner input = new Scanner(System.in); // Create a Scanner object
+
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in); // Create a Scanner object
+
         boolean exit = false; // Variable to control the loop
 
         while (!exit) { // Infinite loop to display the menu until the user exits the program   
