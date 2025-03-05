@@ -28,7 +28,7 @@ public class Student extends Person { // Student class extending Person class
 
     public Student(String name, int age, String address, String major, double gpa) { // Constructor with parameters
         super(name, age, address); // Call the superclass constructor
-        this.studentId = "S" + (++idCounter); // Generate the student ID
+        this.studentId = "S" + (idCounter++); // Generate the student ID
         this.major = major; // Initialize the major
         this.gpa = gpa; // Initialize the GPA
     }
